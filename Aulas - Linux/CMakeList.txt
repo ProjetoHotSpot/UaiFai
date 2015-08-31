@@ -1,0 +1,8 @@
+QTCREATOR
+
+gcc -c aritimetica.c
+gcc -c main.c
+gcc main.o aritimetica.o -o teste
+
+
+para rodar: ./teste
