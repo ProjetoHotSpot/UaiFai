@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {  	
+	margin: 0;  	
+	padding: 0;  	
+	background: #ddd;  
+	}    
+#container  {  	
+	margin: 1em auto;  	
+	width: 650px;  	
+	background: #fff;  
+	}    
+#header {background: #000DFF;}  
+#mainnav {background: #00ABFF; }    
+#menu  {  	
+	float: right;  	
+	width: 165px;  	
+	background: #6F9;  
+	}    
+#contents  {  	
+	float: left;  	
+	background: #00ABFF;
+	margin: 0;  width: 650px;  
+	align: "center";	
+
+	}    
+#footer  {  	
+	clear: both;  	
+	background: #000DFF;  
+	} 
+
+#facebook {
+	float:left;
+	background: #FFFFFF;
+	
+}
