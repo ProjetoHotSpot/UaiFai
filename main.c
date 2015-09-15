@@ -19,7 +19,7 @@ static int ev_handler(struct mg_connection *conn,
     case MG_AUTH:
 		return MG_MORE;
     case MG_REQUEST:
-		//REQUISIÇÕES DE PÁGINA
+		//Requisições de Página
 		
 		mg_send_header(conn, "Content-Type", "text/html");
 		
@@ -48,18 +48,18 @@ static int ev_handler(struct mg_connection *conn,
 int main(void){
 	struct mg_server *server;
 
-	// Create and configure the server
+	// Cria e configura o servidor
 	server = mg_create_server(NULL, ev_handler);
 	mg_set_option(server, "document_root", ".");
 	mg_set_option(server, "listening_port", "8080");
 
-	// Serve request. Hit Ctrl-C to terminate the program
+	// Solicitação do Servidor. Digite Ctrl-C para terminar o programa
 	printf("Starting on port %s\n", mg_get_option(server, "listening_port"));
 	for (;;) {
 		mg_poll_server(server, 1000);
 	}
 
-	// Cleanup, and free server instance
+	// Limpa e libera instacia do Servidor
 	mg_destroy_server(&server);
 
 	return 0;
