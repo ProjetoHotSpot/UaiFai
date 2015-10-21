@@ -38,6 +38,8 @@ int main(void){
 	mg_set_option(server, "document_root", ".");
 	mg_set_option(server, "listening_port", "8080");
 
+	init_routes_table();
+	init_resources_table();
 
 	// Ctrl+C para encerrar o programa
 	printf("Starting on port %s\n", mg_get_option(server, "listening_port"));
