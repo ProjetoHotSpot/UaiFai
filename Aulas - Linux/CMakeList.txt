@@ -6,3 +6,5 @@ gcc main.o aritimetica.o -o teste
 
 
 para rodar: ./teste
+
+//testando github email
