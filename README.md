@@ -10,3 +10,29 @@ Participantes do Projeto:
 >* [Pablo Miguel] (https://github.com/PabloMiguel19)
 >* [Rafael Marioza] (https://github.com/rmarioza)
 >* [Rodolfo Quintão] (https://github.com/rodolfoquintao)
+
+## Wiki
+Para acessar [clique aqui](https://github.com/Host32/UaiFai/wiki)
+
+
+## Documento de Instalação
+
+### 1. Executando Scripts
+
+```
+$ perl scripts/resources.pl
+```
+
+### 2. Compilação
+
+```
+$ mkdir build
+$ cmake ..
+$ make
+```
+
+### 3. Executar
+
+```
+$ ./UaiFai
+```
