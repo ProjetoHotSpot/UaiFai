@@ -12,7 +12,7 @@ Participantes do Projeto:
 >* [Rodolfo Quintão] (https://github.com/rodolfoquintao)
 
 ## Wiki
-Para acessar [clique aqui](https://github.com/Host32/UaiFai/wiki)
+Para acessar [clique aqui](https://github.com/ProjetoHotSpot/UaiFai/wiki)
 
 
 ## Documento de Instalação
