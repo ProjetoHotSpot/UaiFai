@@ -16,6 +16,43 @@
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
+    
+        <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- App Facebook -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1055691054471595',
+                cookie: true, // enable cookies to allow the server to access the session
+                xfbml: true, // parse social plugins on this page
+                status: true,
+                version: 'v2.5'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1055691054471595";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/app.js"></script>
+<!-- Custom Image loader -->
+<script src="js/image_loader.js"></script>
+
+
     <body>
 
         <div class="site-main" id="sTop">
